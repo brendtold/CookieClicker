@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cookies</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <div class="container">
+      <h2>News!</h2>
+      <div class="container">
+        <p id="newsclass"></p>
+      </div>
+      <h2>Cookies</h2>
+        <div class="container">
+          Cookies per second: <div id="cookiesps"></div>
+          Cookies: <div id="cookies"></div>
+          <div class="" id="errorbox">
+          </div>
+          <table class="table table-striped">
+
+            <tr>
+              <td>Cursors: </td>
+              <td id="cursors"></td>
+              <td><p class="btn btn-primary btn-sm" onClick="newCursor()" id="buycursor">Koop</p></td>
+            </tr>
+            <tr>
+              <td>Grandma's: </td>
+              <td id="grandmas"></td>
+              <td><p class="btn btn-primary btn-sm" onClick="newGrandma()" id="buygrandma">Koop</p></td>
+            </tr>
+            <tr>
+              <td>farms: </td>
+              <td id="farms"></td>
+              <td><p class="btn btn-primary btn-sm" onClick="newFarm()" id="buyfarm">Koop</p></td>
+            </tr>
+            <tr>
+              <td>factories: </td>
+              <td id="factories"></td>
+              <td><p class="btn btn-primary btn-sm" onClick="newFactory()" id="buyfactory">Koop</p></td>
+            </tr>
+            <tr>
+              <td>Mines: </td>
+              <td id="mines"></td>
+              <td><p class="btn btn-primary btn-sm" onClick="newMine()" id="buymine">Koop</p></td>
+            </tr>
+            <tr>
+              <td>Shipments: </td>
+              <td id="shipments"></td>
+              <td><p class="btn btn-primary btn-sm" onClick="newShipment()" id="buyshipment">Koop</p></td>
+            </tr>
+            <tr>
+              <td>Labratories: </td>
+              <td id="labs"></td>
+              <td><p class="btn btn-primary btn-sm" onClick="newLab()" id="buylab">Koop</p></td>
+            </tr>
+            <tr>
+              <td>Portals: </td>
+              <td id="portals"></td>
+              <td><p class="btn btn-primary btn-sm" onClick="newPortal()" id="buyportal">Koop</p></td>
+            </tr>
+          </table>
+        </div>
+        <div class="container">
+          <img src="cookie.png" onClick="clickCookie()"/>
+        </div>
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p>&copy; 2013 Brent Roose& Andreas Debaene, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="cookies.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/JQuery.js"></script>
+  </body>
+</html>
